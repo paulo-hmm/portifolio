@@ -6,22 +6,22 @@
 
 :root {
     --text-color: white;
-    --bg-style: url(./assets/bg-mobile.jpg);
+    --bg-style: url(../assets/bg-mobile.jpg);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.1);
     --surface-color-hover: rgba(255, 255, 255, 0.05);
     --highlight-color: rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(./assets/MoonStars.svg);
+    --switch-bg-url: url(../assets/MoonStars.svg);
 }
 
 .light {
     --text-color: black;
-    --bg-style: url(./assets/bg-mobile-light.jpg);
+    --bg-style: url(../assets/bg-mobile-light.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.1);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(0, 0, 0, 0.1);
-    --switch-bg-url: url(./assets/Sun.svg)
+    --switch-bg-url: url(../assets/Sun.svg)
 }
 
 .light #switch button {
@@ -31,8 +31,6 @@
 #switch button:hover {
     outline: 8px solid var(--highlight-color);
 }
-
-
 
 body {
     /*
@@ -177,11 +175,11 @@ footer {
 /* media queries*/
 @media (min-width: 700px) {
     :root {
-        --bg-style: url(./assets/bg-desktop.jpg);
+        --bg-style: url(../assets/bg-desktop.jpg);
     }
 
     .light {
-        --bg-style: url(./assets/bg-desktop-light.jpg);
+        --bg-style: url(../assets/bg-desktop-light.jpg);
     }
 }
 
@@ -202,26 +200,4 @@ footer {
     to {
         left: 0;        
     }
-}
-
-h1 {
-    text-align: center;
-    margin-top: 20px;
-}
-
-p {
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-}
-
-.working {
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-}
-
-.topicos {
-    display: flex;
-    justify-content: center;
 }

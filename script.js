@@ -15,10 +15,10 @@ function toogleMode() {
    
 
    if (html.classList.contains("light")) {
-    img.setAttribute('src', './assets/fotinha-light.png')
+    img.setAttribute('src', '../assets/fotinha-light.png')
     img.setAttribute('alt', 'Foto de Paulo Henrique usando camisa preta e fundo rosa')
    } else {
-    img.setAttribute('src', './assets/fotinha.png')
+    img.setAttribute('src', '../assets/fotinha.png')
     img.setAttribute('alt', 'Foto de Paulo Henrique usando camisa preta e fundo azul')
 
    }
